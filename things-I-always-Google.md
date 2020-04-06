@@ -37,7 +37,7 @@
 
 ### New Rails project with PostgreSQL, skip Minitest, skip webpack
 
-``rails new app_name --database=postgresql --skip-test --skip-webpack-install --skip-javascript`
+`rails new app_name --database=postgresql --skip-test --skip-webpack-install --skip-javascript`
 
 ### Open Bash Profile in Atom
 
