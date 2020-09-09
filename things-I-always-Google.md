@@ -62,3 +62,8 @@ option + f = move one word forward
 ### Run Dotnet Server on a different port
 
 `dotnet run --urls="http://localhost:5001"`
+
+### Restart OmniSharp if VS Code F12 Go To Definition isn't Working
+
+`command + shift + p -> OmniSharp: Restart OmniSharp`
+
