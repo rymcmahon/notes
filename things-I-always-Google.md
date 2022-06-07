@@ -22,6 +22,18 @@
 
 `git checkout -`
 
+### Rebasing Strategy
+```
+git checkout -b new-feature main
+# work on feature
+git commit -a -m "Add feature"
+git rebase origin/main
+
+# OR
+git checkout -b my-feature -t origin/main
+git pull --rebase (since -t told it to track main)
+```
+
 ### Add existing project to Github
 
 1. git init
